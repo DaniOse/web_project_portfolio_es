@@ -1,11 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
   <title>Portfolio</title>
 </head>
 <body>
+  <div class="page">
+    <header class="header">
+      <a class="logo" href="#">BD</a>
 
+      <nav class="nav">
+        <a class="nav__link" href="#about">Sobre mí</a>
+        <a class="nav__link" href="#projects">Proyectos</a>
+        <a class="nav__link" href="#contact">Contacto</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="hero" id="about">
+        <div class="hero__info">
+          <h1 class="hero__title">Brandon Daniel Oseida Esquivel</h1>
+
+          <p class="hero__subtitle">Desarrollador Full-Stack Junior</p>
+
+          <p class="hero__description">
+            Desarrollador web junior en formación, enfocado en crear interfaces limpias,
+            responsivas y funcionales utilizando HTML, CSS, JavaScript y Git.
+          </p>
+
+          <div class="hero__links">
+            <a class="hero__link" href="#" download>Descargar CV</a>
+            <a class="hero__link" href="https://github.com/DaniOse" target="_blank">GitHub</a>
+            <a class="hero__link" href="#contact">Hablemos</a>
+          </div>
+        </div>
+
+        <img
+          class="hero__image"
+          src="./images/profile.jpg"
+          alt="Fotografía de Brandon Daniel Oseida Esquivel">
+      </section>
+
+      <section class="skills">
+        <h2 class="section-title">Habilidades y herramientas</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">HTML</li>
+          <li class="skills__item">CSS</li>
+          <li class="skills__item">JavaScript</li>
+          <li class="skills__item">Git</li>
+          <li class="skills__item">GitHub</li>
+          <li class="skills__item">OpenAI</li>
+        </ul>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="section-title">Proyectos destacados</h2>
+
+        <div class="projects__grid">
+          <article class="card">
+            <img
+              class="card__image"
+              src="./images/coffee-shop.png"
+              alt="Vista previa del proyecto de cafetería">
+
+            <div class="card__content">
+              <h3 class="card__title">Página web de una cafetería</h3>
+              <p class="card__description">
+                Landing page responsiva para una cafetería, creada con HTML y CSS.
+              </p>
+
+              <div class="card__links">
+                <a class="card__link" href="#" target="_blank">Demo en vivo</a>
+                <a class="card__link" href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__image"
+              src="./images/project-2.png"
+              alt="Vista previa de mi segundo proyecto">
+
+            <div class="card__content">
+              <h3 class="card__title">Mi proyecto</h3>
+              <p class="card__description">
+                Descripción breve del proyecto y las tecnologías utilizadas.
+              </p>
+
+              <div class="card__links">
+                <a class="card__link" href="#" target="_blank">Demo en vivo</a>
+                <a class="card__link" href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <p class="footer__text">© 2026 Brandon Daniel Oseida Esquivel</p>
+      <a class="footer__link" href="mailto:tuemail@example.com">tuemail@example.com</a>
+    </footer>
+  </div>
 </body>
 </html>
