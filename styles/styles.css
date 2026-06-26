@@ -85,7 +85,7 @@ img {
 .hero {
   display: flex;
   justify-content: space-between;
-  gap: 80px;
+  gap: 64px;
   margin-bottom: 80px;
 }
 .hero__link{
@@ -94,7 +94,7 @@ img {
   margin-top: 32px;
 }
 .hero__info {
-  max-width: 650px;
+  max-width: 700px;
 }
 
 .hero__title {
@@ -197,12 +197,12 @@ img {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    transparent,
-    rgba(0, 0, 0, 0.7)
+    transparent 35%,
+    rgba(0, 0, 0, 0.8)
   );
 }
 .card__content {
-  padding: 24px;
+  padding: 32px;
 }
 
 .card__title {
@@ -241,7 +241,7 @@ img {
 
 .footer__email {
     margin-top: 24px;
-
+    font-size: 20px;
     color: #6D6DFF;
     text-decoration: none;
 
