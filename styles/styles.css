@@ -320,25 +320,3 @@ img {
     grid-template-columns: 1fr;
   }
 }
-body::before {
-  content: "";
-  position: fixed;
-
-  width: 700px;
-  height: 700px;
-
-  background: radial-gradient(
-    circle,
-    rgba(109, 109, 255, 0.2),
-    transparent 70%
-  );
-
-  top: -200px;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  pointer-events: none;
-
-  z-index: -1;
-}
